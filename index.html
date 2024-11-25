@@ -1,0 +1,208 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>哈尔的移动城堡网</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;
+}
+html body{font-size:14px;color:#555;background-color:#c4f2ff;
+}
+a{color:#555;text-decoration:none;
+}
+a:hover{color:#4ea4c7;text-decoration:underline;
+}
+
+.container{width:1000px;margin:0 auto;overflow:hidden;background-color:#fff;
+}
+
+.header{float:left;width:1000px;height:100px;line-height:100px;font-size:34px;background-color:#4ea4c7;border-bottom:1px solid #fff;
+}
+.header a{color:#fff;
+}
+.header img{float:left;width:42px;height:42px;margin:30px 0 0 350px;
+}
+.header span{margin-left:5px;
+}
+
+.nav{float:left;width:1000px;height:45px;line-height:45px;font-weight:bold;background-color:#4ea4c7;
+}
+.nav a{color:#fff;margin:0 100px 0 20px;
+}
+.nav a:nth-last-child(1){margin-right:0;
+}
+
+.wrapper{float:left;width:1000px;background-color:#fff;
+}
+
+.focus{float:left;width:1000px;height:460px;background-color:#4ea4c7;
+}
+.focus img{float:left;width:960px;height:440px;margin-left:20px;
+}
+
+.title{float:left;width:960px;height:60px;line-height:50px;margin:20px 0 0 20px;font-size:24px;text-align:center;
+}
+
+.line{float:left;width:1000px;
+}
+.line img{float:left;width:380px;height:210px;margin:6px 0 0 20px;
+}
+.line p{float:left;width:560px;line-height:27px;margin-left:20px;
+}
+
+.list{float:left;width:470px;margin:10px 0 10px 20px;
+}
+.list img{float:left;width:120px;height:120px;margin-top:5px;
+}
+.list h3{float:right;width:330px;height:25px;line-height:25px;
+}
+.list p{float:right;width:330px;line-height:25px;margin-top:5px;
+}
+
+.info{float:left;width:1000px;padding-bottom:10px;
+}
+.info h2{float:left;width:1000px;height:30px;line-height:30px;margin:20px 0;text-align:center;
+}
+.info img{float:left;width:304px;height:470px;margin:10px 0 0 20px;
+}
+.info p{float:left;width:300px;margin-left:25px;border-bottom:1px dotted #cccccc;
+}
+.info p b{float:left;width:90px;height:58px;line-height:58px;
+}
+.info p span{float:left;width:210px;height:58px;line-height:58px;
+}
+
+.text{float:left;width:1000px;padding-bottom:10px;
+}
+.text h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;text-align:center;
+}
+.text img{float:left;width:900px;margin:20px 0 10px 50px;
+}
+.text p{float:left;width:900px;line-height:28px;margin-left:50px;text-indent:25px;
+}
+
+.person{float:left;width:1000px;
+}
+.person h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;text-align:center;
+}
+.person p{float:left;width:465px;margin:20px 0 0 24px;padding-bottom:20px;background-color:#fcfcfc;border-radius:5px;
+}
+.person p img{float:left;width:130px;height:130px;margin:20px 0 0 166px;border-radius:50%;
+}
+.person p b{float:left;width:425px;height:26px;line-height:26px;margin:20px 0 0 20px;text-align:center;
+}
+.person p span{float:left;width:425px;line-height:25px;margin:5px 0 0 20px;
+}
+
+.still{float:left;width:1000px;
+}
+.still h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;text-align:center;
+}
+.still p{float:left;width:304px;margin:20px 0 0 22px;border-radius:5px;
+}
+.still p img{float:left;width:304px;height:190px;
+}
+.still p span{float:left;width:304px;line-height:25px;background-color:#f9f9f9;padding:10px 14px;
+}
+
+.into{float:left;width:1000px;padding:130px 0 150px 0;
+}
+.into p{float:left;width:990px;
+}
+.into p b{float:left;width:300px;height:65px;line-height:65px;text-align:right;
+}
+.into p input{float:left;width:330px;height:35px;margin:15px 0 0 20px;
+}
+.into p input.submit{color:#fff;background-color:#4ea4c7;border:0;
+}
+.into p textarea{float:left;width:330px;height:260px;line-height:35px;margin:15px 0 10px 20px;
+}
+
+.footer{float:left;width:1000px;height:80px;line-height:80px;margin-top:30px;text-align:center;color:#fff;background-color:#4ea4c7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+	
+	<div class="header">
+		<a href="index.html"><img src="images/logo.png"/><span>哈尔的移动城堡</span></a>
+	</div>
+	
+	<div class="nav">
+		<a href="index.html">哈尔首页</a>
+		<a href="info.html">影片信息</a>
+		<a href="plot.html">剧情简介</a>
+		<a href="person.html">人物简介</a>
+		<a href="still.html">影片剧照</a>
+		<a href="table.html">影迷留言</a>
+	</div>
+	
+	<div class="wrapper">
+	
+		<div class="focus">               
+			<a href="info.html"><img src="images/focus.jpg"/></a>
+		</div>
+		
+		<div class="title"><a href="plot.html">剧情简介</a></div>
+		
+		<div class="line">
+			<a href="plot.html"><img src="images/plot.jpg"/></a>
+			<p><a href="plot.html">18岁的苏菲和继母以及妹妹居住在欧洲的一个小镇中，自从父亲死后，继母凡妮就把女儿们安排到原本由父亲经营的制帽小店营生，但是苏菲的妹妹却对这并不感兴趣，于是她很快离开了制帽店；而苏菲则坚持留了下来，因为这是父亲的最爱。一次，苏菲在看望妹妹的路上，被两个士兵截住。这个时候一个神秘男子——哈尔出现了，他用魔法帮助苏菲解决了问题，并送她去妹妹处。途中哈尔和苏菲受到了荒野女巫的追捕。当晚，荒野女巫出现在了苏菲经营的制帽小店中，并对苏菲下了诅咒，把她变成了一个90岁的老太太，而苏菲还不能对任何人透露咒语内容。于是苏菲只能离家出走。途中她偶然遇见了神秘的稻草人芜菁，为了躲避大风，被引进了神秘的哈尔移动城堡。。。。。。</a></p>
+		</div>
+		
+		<div class="title"><a href="person.html">人物简介</a></div>
+
+		<div class="list">
+			<a href="person.html"><img src="images/person1.jpg"/></a>
+			<h3><a href="person.html">苏菲</a></h3>
+			<p><a href="person.html">苏菲是个18岁的少女，出生于1886年的6月中旬，一个相貌清秀且心地善良的少女。和继母及两个妹妹住在一起，每日在父亲的帽子店工作，是帽子店的长女，过着平淡无奇的生活。</a></p>
+		</div>
+		
+		<div class="list">
+			<a href="person.html"><img src="images/person2.jpg"/></a>
+			<h3><a href="person.html">哈尔</a></h3>
+			<p><a href="person.html">移动城堡的主人，是一个性格温柔、有点孩子气的魔法师，身着体面的银蓝色套装。他向往自由，厌恶战争，有一点臭美，容易被小事打击，传说中是个会吃掉姑娘心的巫师，常常分别使用不同的名字。</a></p>
+		</div>
+		
+		<div class="list">
+			<a href="person.html"><img src="images/person3.jpg"/></a>
+			<h3><a href="person.html">马鲁克</a></h3>
+			<p><a href="person.html">马鲁克是哈尔的小徒弟，一个乖巧听话的小男孩，但餐桌礼仪有待加强。无依无靠的他常常一个人居住在城堡里，负责接洽王宫或城镇中来城堡拜访哈尔的人们，喜欢装扮成各种造型，相当喜爱苏菲。</a></p>
+		</div>
+		
+		<div class="list">
+			<a href="person.html"><img src="images/person4.jpg"/></a>
+			<h3><a href="person.html">稻草人菜头</a></h3>
+			<p><a href="person.html">原本是邻国王子，后来被下诅咒因而变成稻草人，是苏菲变成老婆婆后第一个帮助他的人，变成稻草人后因为头像菜头所以苏菲给它取了一个名字叫“菜头”。菜头对于苏菲无私的爱，让人非常感动。</a></p>
+		</div>
+		
+		<div class="list">
+			<a href="index.html"><img src="images/person5.jpg"/></a>
+			<h3><a href="index.html">莎莉曼夫人</a></h3>
+			<p><a href="index.html">史柏丽王室所属的女巫，掌握王宫的实权。她法力十分强大，是王室的御用魔法师，也是哈尔和荒野女巫的老师。她身旁有一条狗，狗的名字叫茵茵，身为宫廷女巫的她有一种女王的霸气。</a></p>
+		</div>
+		
+		<div class="list">
+			<a href="index.html"><img src="images/person6.jpg"/></a>
+			<h3><a href="index.html">荒野女巫</a></h3>
+			<p><a href="index.html">荒野女巫以前曾是个伟大的魔法师，却因和恶魔作交易，不敌邪恶诱惑，导致身心都被吃掉，成为误入歧途的魔女，但本身并不觉得自己是在做坏事，五十年前被赶到荒地。</a></p>
+		</div>
+		
+		<div class="title"><a href="info.html">影片制作</a></div>
+		
+		<div class="line">
+			<p><a href="info.html">本片改编自英国儿童文学作家黛安娜·温尼·琼斯的小说《魔幻城堡》，描绘了一个美丽的爱情故事。片中的女主人公因为受到诅咒而失去了青春的容貌，但依然坚强地生活，这令她赢得了所倾慕之人的爱情，而在情感的互动中，男主人公也克服了内心的怯懦和虚荣，勇敢地去面对责任和人生。同时，本片还把爱情故事设定在战火纷飞的背景之下，使之更为壮阔动人。影片画面细腻，配乐优美，配音演员的表演也十分出色，是一部制作精良的动画电影。本片又叫好又叫座，在本国与国际上广获赞誉，在日本的票房成绩也超越了宫崎骏的前一部作品高达196亿日元。尽管在制作之前两部影片的过程中承受了非常的痛苦，同时还伴随着即将退休的传闻，宫崎骏仍然返回绘图板前，开始了第二个文学改编作品的创作。</a></p>
+			<a href="info.html"><img src="images/make.jpg"/></a>
+		</div>
+	
+	</div>
+	
+	<div class="footer">Copyright @ 2024 wenxiang.com 哈尔的移动城堡网 版权所有</div>
+	
+</div>
+
+</body>
+</html>

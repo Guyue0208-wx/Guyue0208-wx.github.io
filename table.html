@@ -1,0 +1,159 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>哈尔的移动城堡网</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;
+}
+html body{font-size:14px;color:#555;background-color:#c4f2ff;
+}
+a{color:#555;text-decoration:none;
+}
+a:hover{color:#4ea4c7;text-decoration:underline;
+}
+
+.container{width:1000px;margin:0 auto;overflow:hidden;background-color:#fff;
+}
+
+.header{float:left;width:1000px;height:100px;line-height:100px;font-size:34px;background-color:#4ea4c7;border-bottom:1px solid #fff;
+}
+.header a{color:#fff;
+}
+.header img{float:left;width:42px;height:42px;margin:30px 0 0 350px;
+}
+.header span{margin-left:5px;
+}
+
+.nav{float:left;width:1000px;height:45px;line-height:45px;font-weight:bold;background-color:#4ea4c7;
+}
+.nav a{color:#fff;margin:0 100px 0 20px;
+}
+.nav a:nth-last-child(1){margin-right:0;
+}
+
+.wrapper{float:left;width:1000px;background-color:#fff;
+}
+
+.focus{float:left;width:1000px;height:460px;background-color:#4ea4c7;
+}
+.focus img{float:left;width:960px;height:440px;margin-left:20px;
+}
+
+.title{float:left;width:960px;height:60px;line-height:50px;margin:20px 0 0 20px;font-size:24px;text-align:center;
+}
+
+.line{float:left;width:1000px;
+}
+.line img{float:left;width:380px;height:210px;margin:6px 0 0 20px;
+}
+.line p{float:left;width:560px;line-height:27px;margin-left:20px;
+}
+
+.list{float:left;width:470px;margin:10px 0 10px 20px;
+}
+.list img{float:left;width:120px;height:120px;margin-top:5px;
+}
+.list h3{float:right;width:330px;height:25px;line-height:25px;
+}
+.list p{float:right;width:330px;line-height:25px;margin-top:5px;
+}
+
+.info{float:left;width:1000px;padding-bottom:10px;
+}
+.info h2{float:left;width:1000px;height:30px;line-height:30px;margin:20px 0;text-align:center;
+}
+.info img{float:left;width:304px;height:470px;margin:10px 0 0 20px;
+}
+.info p{float:left;width:300px;margin-left:25px;border-bottom:1px dotted #cccccc;
+}
+.info p b{float:left;width:90px;height:58px;line-height:58px;
+}
+.info p span{float:left;width:210px;height:58px;line-height:58px;
+}
+
+.text{float:left;width:1000px;padding-bottom:10px;
+}
+.text h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;text-align:center;
+}
+.text img{float:left;width:900px;margin:20px 0 10px 50px;
+}
+.text p{float:left;width:900px;line-height:28px;margin-left:50px;text-indent:25px;
+}
+
+.person{float:left;width:1000px;
+}
+.person h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;text-align:center;
+}
+.person p{float:left;width:465px;margin:20px 0 0 24px;padding-bottom:20px;background-color:#fcfcfc;border-radius:5px;
+}
+.person p img{float:left;width:130px;height:130px;margin:20px 0 0 166px;border-radius:50%;
+}
+.person p b{float:left;width:425px;height:26px;line-height:26px;margin:20px 0 0 20px;text-align:center;
+}
+.person p span{float:left;width:425px;line-height:25px;margin:5px 0 0 20px;
+}
+
+.still{float:left;width:1000px;
+}
+.still h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;text-align:center;
+}
+.still p{float:left;width:304px;margin:20px 0 0 22px;border-radius:5px;
+}
+.still p img{float:left;width:304px;height:190px;
+}
+.still p span{float:left;width:304px;line-height:25px;background-color:#f9f9f9;padding:10px 14px;
+}
+
+.into{float:left;width:1000px;padding:130px 0 150px 0;
+}
+.into p{float:left;width:990px;
+}
+.into p b{float:left;width:300px;height:65px;line-height:65px;text-align:right;
+}
+.into p input{float:left;width:330px;height:35px;margin:15px 0 0 20px;
+}
+.into p input.submit{color:#fff;background-color:#4ea4c7;border:0;
+}
+.into p textarea{float:left;width:330px;height:260px;line-height:35px;margin:15px 0 10px 20px;
+}
+
+.footer{float:left;width:1000px;height:80px;line-height:80px;margin-top:30px;text-align:center;color:#fff;background-color:#4ea4c7;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+	
+	<div class="header">
+		<a href="index.html"><img src="images/logo.png"/><span>哈尔的移动城堡</span></a>
+	</div>
+	
+	<div class="nav">
+		<a href="index.html">哈尔首页</a>
+		<a href="info.html">影片信息</a>
+		<a href="plot.html">剧情简介</a>
+		<a href="person.html">人物简介</a>
+		<a href="still.html">影片剧照</a>
+		<a href="table.html">影迷留言</a>
+	</div>
+	
+	<div class="wrapper">
+	
+		<div class="into">
+			<form>
+				<p><b>用户账号：</b><input type="text"/></p>
+				<p><b>留言内容：</b><textarea></textarea></p>
+				<p><b></b><input type="button" class="submit" value="留言"/></p>
+			</form>
+		</div>
+		
+	</div>
+
+	<div class="footer">Copyright @ 2024 wenxiang.com 哈尔的移动城堡网 版权所有</div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>哈尔的移动城堡网</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;
+}
+html body{font-size:14px;color:#555;background-color:#c4f2ff;
+}
+a{color:#555;text-decoration:none;
+}
+a:hover{color:#4ea4c7;text-decoration:underline;
+}
+
+.container{width:1000px;margin:0 auto;overflow:hidden;background-color:#fff;
+}
+
+.header{float:left;width:1000px;height:100px;line-height:100px;font-size:34px;background-color:#4ea4c7;border-bottom:1px solid #fff;
+}
+.header a{color:#fff;
+}
+.header img{float:left;width:42px;height:42px;margin:30px 0 0 350px;
+}
+.header span{margin-left:5px;
+}
+
+.nav{float:left;width:1000px;height:45px;line-height:45px;font-weight:bold;background-color:#4ea4c7;
+}
+.nav a{color:#fff;margin:0 100px 0 20px;
+}
+.nav a:nth-last-child(1){margin-right:0;
+}
+
+.wrapper{float:left;width:1000px;background-color:#fff;
+}
+
+.focus{float:left;width:1000px;height:460px;background-color:#4ea4c7;
+}
+.focus img{float:left;width:960px;height:440px;margin-left:20px;
+}
+
+.title{float:left;width:960px;height:60px;line-height:50px;margin:20px 0 0 20px;font-size:24px;text-align:center;
+}
+
+.line{float:left;width:1000px;
+}
+.line img{float:left;width:380px;height:210px;margin:6px 0 0 20px;
+}
+.line p{float:left;width:560px;line-height:27px;margin-left:20px;
+}
+
+.list{float:left;width:470px;margin:10px 0 10px 20px;
+}
+.list img{float:left;width:120px;height:120px;margin-top:5px;
+}
+.list h3{float:right;width:330px;height:25px;line-height:25px;
+}
+.list p{float:right;width:330px;line-height:25px;margin-top:5px;
+}
+
+.info{float:left;width:1000px;padding-bottom:10px;
+}
+.info h2{float:left;width:1000px;height:30px;line-height:30px;margin:20px 0;text-align:center;
+}
+.info img{float:left;width:304px;height:470px;margin:10px 0 0 20px;
+}
+.info p{float:left;width:300px;margin-left:25px;border-bottom:1px dotted #cccccc;
+}
+.info p b{float:left;width:90px;height:58px;line-height:58px;
+}
+.info p span{float:left;width:210px;height:58px;line-height:58px;
+}
+
+.text{float:left;width:1000px;padding-bottom:10px;
+}
+.text h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;text-align:center;
+}
+.text img{float:left;width:900px;margin:20px 0 10px 50px;
+}
+.text p{float:left;width:900px;line-height:28px;margin-left:50px;text-indent:25px;
+}
+
+.person{float:left;width:1000px;
+}
+.person h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;text-align:center;
+}
+.person p{float:left;width:465px;margin:20px 0 0 24px;padding-bottom:20px;background-color:#fcfcfc;border-radius:5px;
+}
+.person p img{float:left;width:130px;height:130px;margin:20px 0 0 166px;border-radius:50%;
+}
+.person p b{float:left;width:425px;height:26px;line-height:26px;margin:20px 0 0 20px;text-align:center;
+}
+.person p span{float:left;width:425px;line-height:25px;margin:5px 0 0 20px;
+}
+
+.still{float:left;width:1000px;
+}
+.still h2{float:left;width:1000px;height:30px;line-height:30px;margin-top:20px;text-align:center;
+}
+.still p{float:left;width:304px;margin:20px 0 0 22px;border-radius:5px;
+}
+.still p img{float:left;width:304px;height:190px;
+}
+.still p span{float:left;width:304px;line-height:25px;background-color:#f9f9f9;padding:10px 14px;
+}
+
+.into{float:left;width:1000px;padding:130px 0 150px 0;
+}
+.into p{float:left;width:990px;
+}
+.into p b{float:left;width:300px;height:65px;line-height:65px;text-align:right;
+}
+.into p input{float:left;width:330px;height:35px;margin:15px 0 0 20px;
+}
+.into p input.submit{color:#fff;background-color:#4ea4c7;border:0;
+}
+.into p textarea{float:left;width:330px;height:260px;line-height:35px;margin:15px 0 10px 20px;
+}
+
+.footer{float:left;width:1000px;height:80px;line-height:80px;margin-top:30px;text-align:center;color:#fff;background-color:#4ea4c7;
+}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+	<div class="header">
+		<a href="index.html"><img src="images/logo.png"/><span>哈尔的移动城堡</span></a>
+	</div>
+	
+	<div class="nav">
+		<a href="index.html">哈尔首页</a>
+		<a href="info.html">影片信息</a>
+		<a href="plot.html">剧情简介</a>
+		<a href="person.html">人物简介</a>
+		<a href="still.html">影片剧照</a>
+		<a href="table.html">影迷留言</a>
+	</div>
+
+	<div class="wrapper">
+	
+		<div class="text">
+			<h2>剧情简介</h2>
+			<img src="images/plot.jpg"/>
+			<p>18岁的苏菲和继母以及妹妹居住在欧洲的一个小镇中，自从父亲死后，继母凡妮就把女儿们安排到原本由父亲经营的制帽小店营生，但是苏菲的妹妹却对这并不感兴趣，于是她很快离开了制帽店；而苏菲则坚持留了下来，因为这是父亲的最爱。</p>
+			<p>一次，苏菲在看望妹妹的路上，被两个士兵截住。这个时候一个神秘男子——哈尔出现了，他用魔法帮助苏菲解决了问题，并送她去妹妹处。途中哈尔和苏菲受到了荒野女巫的追捕。当晚，荒野女巫出现在了苏菲经营的制帽小店中，并对苏菲下了诅咒，把她变成了一个90岁的老太太，而苏菲还不能对任何人透露咒语内容。于是苏菲只能离家出走。途中她偶然遇见了神秘的稻草人芜菁，为了躲避大风，被引进了神秘的哈尔移动城堡。在那里，苏菲结识了驱使城堡移动的魔力来源——火焰恶魔卡西法，小男孩马鲁克，稻草人卡普以及男主人公哈尔。苏菲以清洁妇的名义住了下来，度过了一段平静美妙的日子。苏菲逐渐活出了自己，并不知不觉地被哈尔吸引。</p>
+			<p>城堡的主人魔法师哈尔拥有神奇的力量，但他并没有像这个国家所有的魔法师一样接受国王的号令参加战争，而是用自己的力量捍卫和平。哈尔常常在黄昏后才精疲力尽地回到自己的城堡，并也因此越来越深陷，将变成恶魔状态。直到有一天，哈尔对苏菲说出了自己厌恶战争的心声，苏菲决定帮助哈尔。在去王宫的路上，苏菲遇到了荒野女巫。原来这是个陷阱，宫廷女巫莎莉曼虽然是哈尔与荒野女巫的老师，但为了防止他们的心性被恶魔控制，收回了荒野女巫的的魔法，让她变成了一个普通的老婆婆，而哈尔也因为放心不下苏菲来到了王宫，当莎莉曼使出魔法要杀死卡西法收回哈尔的魔法时，苏菲冲了上来救了哈尔。</p>
+			<p>战争终于全面爆发，哈尔为了保护苏菲和大家，一人独自面对敌人。内心爱着哈尔的苏菲不忍让哈尔一人受难，决心与哈尔一同面对。于是，她驱使着移动城堡追寻哈尔的足迹。而此时的哈尔，已经渐渐失去了意识，变成了一只只会战斗保护苏菲的怪鸟。经过了这一连串事故后，偶然间苏菲通过戒指的指引发现了随意门并回到了哈尔的过去，并且了解到哈尔在童年时在流星结束生命的地方遇到了流星卡西法，而后者不愿就这样死去便与哈尔签定了契约，让火之恶魔卡西法的魔力为他所用，但是哈尔自己的心脏也将成为这个契约的交换品，将卡西法与哈尔的生命联系在一起。</p>
+			<p>故事的最后，苏菲拯救了奄奄一息的哈尔，破除了哈尔与卡西法之间的约定并且帮助哈尔找回了自己心脏，同时自己身上的诅咒也被解除，而稻草人卡普在苏菲的亲吻下也摆脱了复杂的诅咒——原来他就是邻国王子，并且答应回国后就停止战争。虽然摆脱了契约的束缚，卡西法仍然留恋和他们在一起的生活，于是在它的驱使下，会飞的移动城堡搭载着苏菲与哈尔一行，过上了和平而幸福的生活。</p>
+		</div>
+		
+	</div>
+
+	<div class="footer">Copyright @ 2024 wenxiang.com 哈尔的移动城堡网 版权所有</div>
+	
+</div>
+
+</body>
+</html>
